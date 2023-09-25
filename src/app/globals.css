@@ -54,9 +54,19 @@
 	}
 }
 
+img {
+	max-width: 30vw;
+	max-height: 30vw;
+}
+
 @media (max-width: 700px) {
 	body main>* {
 		width: 95vw;
+	}
+
+	img {
+		max-width: 80vw;
+		max-height: 80vw;
 	}
 }
 
@@ -191,4 +201,3 @@ tr:nth-child(even) {
 * a {
 	color: #0f83fd;
 }
-
