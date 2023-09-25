@@ -12,7 +12,7 @@
 		"@mdx-js/loader": "^2.3.0",
 		"@mdx-js/react": "^2.3.0",
 		"@next/mdx": "^13.4.19",
-		"@supabase/supabase-js": "^2.32.0",
+		"@supabase/supabase-js": "^2.36.0",
 		"@types/cookie": "^0.5.1",
 		"@types/node": "20.5.0",
 		"@types/react": "18.2.20",
