@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'digitalDown';
+	src: url(/digital.ttf);
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'digitalDown14';
+	src: url(/digital14.ttf);
+	font-display: swap;
+}
+
+.num {
+	font-family: 'digitalDown';
+}
+
+:root {
+	margin: 0;
+	padding-left: 10vh;
+}
+
+.countdown {
+	box-shadow: 10px 10px 4px rgb(255, 255, 255, 0.5);
+	padding: 2pt 7pt 2pt 7pt;
+	transition: .1s;
+}
+
+.countdown h1 {
+	display: inline-block;
+}
+
+.countdown p {
+	display: inline-block;
+}
+
+#encountdown {
+	size: 18pt;
+}
+
+.n14 {
+	font-family: 'digitalDown14';
+}
+
+* {
+	-webkit-user-select: none;
+	user-select: none;
+}
