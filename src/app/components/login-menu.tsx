@@ -1,4 +1,3 @@
-import { createClient } from "@supabase/supabase-js";
 import styles from "../Home.module.css";
 import { UserInfo, getUser } from "./auth";
 import { headers } from "next/headers";

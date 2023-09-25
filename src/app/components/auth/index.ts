@@ -12,14 +12,6 @@ export enum AuthResponse {
 	Stop = 2
 }
 
-const getDB = () => {
-	return createClient("https://ywqdjdcqbktemtymqiqu.supabase.co", process.env.db_token!!, {
-		auth: {
-			persistSession: false
-		}
-	});
-}
-
 export const login = (async (body: FormData) => {
 	const db = getDB();
 	const hashedPassword = crypto.createHash('sha256').update(body.get('password') as string).digest('hex');
@@ -52,6 +44,7 @@ export interface UserInfo {
 
 import { cookies } from "next/headers";
 import nodeCache from "node-cache";
+import getDB from "../database";
 
 type req = IncomingMessage | null | { type: "cookie", value: string | null | undefined } | { type: "username", value: string | null | undefined };
 

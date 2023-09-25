@@ -350,3 +350,7 @@ p.fakeLogin {
 .card a {
 	color: black;
 }
+
+.react-split-mde-preview {
+	padding: 1em;
+}
