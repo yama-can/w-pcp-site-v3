@@ -11,6 +11,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="ja">
+			<meta name="color-scheme" content="light" />
 			<body>{children}</body>
 		</html>
 	);
